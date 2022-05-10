@@ -5,13 +5,18 @@ pageInfo:
   description: Welcome to your new dashboard!
   navLinks:
   - title: GitHub
-    path: https://github.com/Lissy93/dashy
+    path: https://github.com/anthonycastaneda
   - title: Documentation
-    path: https://dashy.to/docs
+    path: https://dash.anthonycastaneda.com
 
 # Optional app settings and configuration
 appConfig:
   theme: colorful
+  auth:
+    users:
+    - user: anthony
+      hash: 25997C6C85FA2F8A1E9C84F22B758BE518E1EF5622DCB468E9A0003501FFD57D
+      type: admin
 
 # Main content - An array of sections, each containing an array of items
 sections:
