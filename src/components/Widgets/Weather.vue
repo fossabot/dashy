@@ -47,7 +47,7 @@ export default {
     },
     endpoint() {
       const { apiKey, city } = this.options;
-      return `${widgetApiEndpoints.weather}?q=${city}&appid=${apiKey}&units=${this.units}`;
+      return `${widgetApiEndpoints.weather}?id=${city}&appid=${apiKey}&units=${this.units}`;
     },
     tempDisplayUnits() {
       switch (this.units) {
