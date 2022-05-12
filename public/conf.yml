@@ -24,9 +24,6 @@ appConfig:
   enableErrorReporting: true
   allowConfigEdit: true
   enableFontAwesome: true
-  fontAwesomeKey: f23f78ea01
-  hideComponents:
-      - hideFooter: true
 
 # Main content - An array of sections, each containing an array of items
 sections:
