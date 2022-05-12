@@ -11,7 +11,7 @@ pageInfo:
 
 # Optional app settings and configuration
 appConfig:
-  theme: one-dark
+  theme: nord
   auth:
     enableGuestAccess: false
     users:
