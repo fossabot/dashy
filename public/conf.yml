@@ -212,7 +212,6 @@ sections:
       - title: Rust
         url: https://doc.rust-lang.org/reference
         icon: si-rust
-        color: '#000000'
       - title: Docker
         url: https://docs.docker.com/
         icon: si-docker
