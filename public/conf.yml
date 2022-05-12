@@ -45,10 +45,6 @@ sections:
           city: 4699540
           units: imperial
       - type: cve-vulnerabilities
-        options:
-          sortBy: publish-date
-          minScore: 5
-          limit: 10
 
   - name: Public Internet
     icon: fas fa-cloud
