@@ -28,7 +28,7 @@ appConfig:
 # Main content - An array of sections, each containing an array of items
 sections:
   - name: Today
-    icon: fa-solid fa-house-user
+    icon: fas fa-laptop-house
     displayData:
       collapsed: false
       hideForGuests: false
@@ -193,7 +193,7 @@ sections:
         url: https://www.hackthebox.com/home
 
   - name: Documentation
-    icon: fa-person-through-window
+    icon: fas fa-book
     items:
       - title: JavaScript
         url: https://developer.mozilla.org
@@ -220,7 +220,7 @@ sections:
         color: '#2496ED'
 
   - name: Social & News
-    icon: far fa-thumbs-up
+    icon: fas fa-poop
     items:
       - title: Discord
         icon: si-discord
