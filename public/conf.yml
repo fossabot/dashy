@@ -28,7 +28,7 @@ appConfig:
 # Main content - An array of sections, each containing an array of items
 sections:
   - name: Today
-    icon: far fa-smile-beam
+    icon: fa-solid fa-house-user
     displayData:
       collapsed: false
       hideForGuests: false
@@ -42,6 +42,11 @@ sections:
           city: 4699540
           units: imperial
       - type: cve-vulnerabilities
+        options:
+          sortBy: publish-date
+          hasExploit: true
+          minScore: 5
+          limit: 5      
 
   - name: Public Internet
     icon: fas fa-cloud
@@ -188,7 +193,7 @@ sections:
         url: https://www.hackthebox.com/home
 
   - name: Documentation
-    icon: fa-solid fa-person-through-window
+    icon: fa-person-through-window
     items:
       - title: JavaScript
         url: https://developer.mozilla.org
